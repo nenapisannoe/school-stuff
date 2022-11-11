@@ -1,0 +1,16 @@
+﻿  search_algs.cpp
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(20,14): error C2228: left of '.isFinal' must have class/struct/union
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(20,14): message : type is 'State *'
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(20,14): message : did you intend to use '->' instead?
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(24,19): error C2664: 'void std::deque<State,std::allocator<State>>::push_front(_Ty &&)': cannot convert argument 1 from 'State *' to '_Ty &&'
+          with
+          [
+              _Ty=State
+          ]
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(24,19): message : Reason: cannot convert from 'State *' to '_Ty'
+          with
+          [
+              _Ty=State
+          ]
+C:\Users\nena\source\repos\Missionaries and Cannibals\Missionaries and Cannibals\search_algs.cpp(24,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\deque(785,10): message : see declaration of 'std::deque<State,std::allocator<State>>::push_front'
