@@ -7,7 +7,8 @@ using namespace std;
 int main()
 {
 	setlocale(0, "Russian");
-	State initialState = State(3, 3, Boat::Left, 0, 0);
+	State initialState = State(0, 3, 3, Boat::Left, 0, 0);
 	initialState.PrintState();
-	BFS(initialState);
+	cout << endl;
+	BFS(initialState).PrintState();
 }

@@ -8,5 +8,6 @@
 using namespace std;
 
 State BFS(State startingState);
+State DFS(State startingState);
 #endif //MaC_Search
 #pragma once
