@@ -1,0 +1,88 @@
+<body>
+    <style>
+        h1{
+            text-align: center; 
+        } 
+        ul#first 
+            {
+                list-style: none;
+                color:blue;
+                display:none;
+        }
+        ul#first li::before {
+            content: "\2022"; 
+            color: red; 
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em; 
+            margin-left: -1em; 
+        }
+        #second
+        {
+                color: yellow;
+                background-color: gray;
+                width: 110px;
+        }
+        .red {
+            color: red;
+            }  
+            
+   .lorem {
+     color: yellow;
+     background-color: green; 
+     font-size: 2em;
+     box-shadow: 10px 5px 5px grey;
+     border-style: solid;
+     border-color: black;
+   }
+   
+    </style>
+    <h1>Задания на использование стилей</h1>
+    <p>0. Используя встроенный стиль CSS, отцентрируйте элемент h1.</p>
+    <p>1. Одним селектором сделайте все элементы li "первого списка" красным
+    цветом</p>
+    <p>2. Не добавляя нового селектора, а изменив существующий, сделайте все
+    ссылка с классом red красным цветом</p>
+    <p>3. Отключите написанные стили CSS с помощью комментариев и затем
+    снова сделайте их активными</p>
+    <p>4. Не удаляя стиль CSS из задания 1, сделайте все элементы li
+    "первого списка" синим цветом.</p>
+    <p>5. Измените цвет абзацев после списков на фиолетовый цвет.
+    не обращаясь к ним (не используя селектор тэгов p). Сделайте в них
+    абзацное отступление. Сделайте текст курсивом. Выровняйте эти абзацы по
+    шириной. Возьмите их в розовую рамку</p>
+    <p>6. Сделайте все элементы li "второго списка" желтым цветом на
+    серый фон. Установите ширину этих элементов. </p>
+    <p>7. Выделите в этих абзацах название "Lorem Ipsum" желтым цветом на
+    зеленом фоне размером на 200% больше всего текста. Добавьте тень.
+    Возьмите в рамку</P>
+    <p>8. Поменять цвет текста элементов li в "первом списке" на зеленый,
+    при этом цвет маркеров оставить красным</P>
+    <p>9. Скрыть отображение элементов li в "первом списке" на экране
+    браузера</P>
+    <hr>
+    <p><strong>Текст для стилизования</strong></p>
+    <p>Первый список</p>
+    <ul id="first">
+    <li id >Элемент 1</li>
+    <li>Элемент 2</li>
+    <li>Элемент 3</li>
+    </ul>
+    <p>Второй список</p>
+    <ul id="second">
+    <li>Элемент 1</li>
+    <li>Элемент 2</li>
+    <li>Элемент 3</li>
+    </ul>
+    <div>
+        <div style="border: 4px solid #f36fc7;"><p style = "color: purple; text-indent: 20px; font-style: italic; text-align: justify">
+        <span class = "lorem"> Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. <span class = "lorem">Lorem Ipsum</span> has been the industry's standard dummy text ever
+        since the 1500s, когда anknown printer took a galley of type and скрамблет его к тому, как тип специальной книги. Это <a href="#" class="red">survived</a> не только 5 centuries, 
+        а также лепей в electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <a href="#" class="red">разрешен</a> release of Letraset sheets containing <span class = "lorem">Lorem Ipsum</span> passages, 
+        and more recently with desktop publishing software как Aldus PageMaker including versions of <a href="#" class="red">survived</a> <span class = "lorem">Lorem Ipsum.</span></p>
+        <p style = "color: purple; text-indent: 20px;font-style: italic;text-align: justify">It is long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of
+        using <span class = "lorem">Lorem Ipsum</span> is that it ha more-or-less normal distribution of листовки, как opposed to using 'Контент here, content here', making it look like readable English. Много Desktop publishing packages and web page
+        editors now use <span class = "lorem">Lorem Ipsum</span>, как их дефектный текст, и для поиска <span class = "lorem">'lorem ipsum'</span> will uncover many web sites still in their infancy. Various versions have evolved over years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).</p></div>
+    </div>
+    </body>
